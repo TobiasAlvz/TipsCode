@@ -1,31 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Montserrat:wght@100&family=Sacramento&display=swap");
 * {
   padding: 0;
   margin: 0;
 }
-
+body {
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
 .header {
   background-color: #14274e;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+h1 {
+  margin: auto;
+  padding: 10px;
+  font-size: 60px;
+  color: #66bfbf;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+h2 {
+  color: #66bfbf;
 }
 
-div {
-  width: 200px;
-  height: 200px;
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
-/* .div1 {
-  background-color: blue;
-  padding: 20px;
-  border: 10px solid black;
+h3,
+a {
+  color: #11999e;
+}
+.efeito {
+  text-decoration: underline;
 }
 
-.div2 {
-  margin-left: 260px;
-  background-color: red;
-  border: 20px solid black;
+.celeboCima {
+  position: absolute;
+  right: 20%;
+  top: 50px;
 }
 
-.div3 {
-  margin-left: 500px;
-  background-color: yellow;
-  border: 10px solid black;
-} */
+.celeboBaixo {
+  position: absolute;
+  right: 70%;
+  bottom: 1%;
+}
+
+.tobias {
+  width: 350px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2em;
+}
+
+.code-img {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+  padding: 10px;
+}
+
+.chilli-img {
+  padding: 10px;
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
