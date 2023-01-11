@@ -36,6 +36,12 @@
    font-weight: 900;
  }
 
+ h2 {
+   font-family: 'Montserrat-bold', serif;
+   font-size: 32px;
+   line-height: 1.5em;
+ }
+
 
  h3 {
    font-family: "Montserrat-black", sans-serif;
@@ -55,15 +61,20 @@
  }
 
  #features {
-   padding: 7% 15%;
-   margin: auto;
+   padding: 12px 20px;
  }
 
-
+ .features-container {
+   min-height: 60vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+ }
 
  .feature-box {
    text-align: center;
-   padding: 5px;
+   margin: 10px;
 
  }
 
@@ -73,4 +84,17 @@
 
  .icon:hover {
    color: rgb(255, 0, 51);
+ }
+
+ #testimoniaos {
+   background-color: rgb(209, 27, 63);
+   padding: 7% 12%;
+   text-align: center;
+   color: white;
+ }
+
+ .alisson {
+   border-radius: 50%;
+   width: 100px;
+   margin: 20px;
  }
