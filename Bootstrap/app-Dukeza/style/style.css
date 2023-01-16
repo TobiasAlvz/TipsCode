@@ -12,7 +12,7 @@
 
  #title {
    background-color: #051d35;
-   padding: 3% 15%;
+   padding: 3% 15% 10%;
    color: white;
  }
 
@@ -58,16 +58,22 @@
  .cat-image {
    width: 300px;
    transform: rotate(25deg);
+   position: absolute;
+   right: 22%;
  }
 
  #features {
    padding: 12px 20px;
+   z-index: 1;
+   position: relative;
+   background-color: rgb(255, 255, 255);
  }
 
  .features-container {
    min-height: 60vh;
    display: flex;
    justify-content: space-around;
+
    align-items: center;
    flex-wrap: wrap;
  }
@@ -112,6 +118,19 @@
    margin: 20px 20px 50px;
  }
 
- .card {
-   margin: 15px;
+ #pricing .btn {
+   width: 100%;
+ }
+
+ #pricing {
+   padding: 100px;
+   text-align: center;
+ }
+
+ .pricing-card {
+   padding: 2% 4%;
+ }
+
+ .card-header {
+   width: 100%;
  }
