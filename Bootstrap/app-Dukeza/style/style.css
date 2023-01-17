@@ -30,7 +30,7 @@
  }
 
  h1 {
-   font-family: 'Montserrat', serif;
+   font-family: 'Montserrat-black', serif;
    font-size: 3rem;
    line-height: 1.5;
    font-weight: 900;
@@ -133,4 +133,28 @@
 
  .card-header {
    width: 100%;
+ }
+
+ @media (max-width: 1028px) {
+   #title {
+     text-align: center;
+   }
+
+   .title {
+     font-size: 2em;
+
+   }
+
+
+
+   .fig {
+     text-align: center;
+   }
+
+   .cat-image {
+     margin: 10px;
+     position: static;
+     transform: rotate(0);
+   }
+
  }
