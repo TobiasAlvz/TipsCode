@@ -13,7 +13,6 @@ function desafio() {
   a = c;
 
   console.log("A é? " + a);
-
   console.log("B é? " + b);
 }
 
