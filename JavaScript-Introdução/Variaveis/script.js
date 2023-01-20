@@ -1,4 +1,2 @@
-const numb = 10;
-
-console.log(numb);
-console.log(typeof numb);
+const myName = prompt("Qual o seu nome");
+alert(`Olá ${myName}`);
