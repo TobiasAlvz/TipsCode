@@ -6,7 +6,6 @@ function desafio() {
 
   /** Escreva seu código nas linhas 7 e 9 *
   
-  
   /** Você também não pode alterar esse código */
   let c = 8;
   b = a;
