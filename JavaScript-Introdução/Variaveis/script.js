@@ -1,4 +1,4 @@
-const numb = 10
+const numb = 10;
 
-console.log(numb)
-console.log(typeof (numb))
+console.log(numb);
+console.log(typeof numb);
