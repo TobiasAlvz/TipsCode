@@ -7,5 +7,4 @@ function getBread(custo) {
     )} pães`
   );
 }
-
 getBread(1.5);
