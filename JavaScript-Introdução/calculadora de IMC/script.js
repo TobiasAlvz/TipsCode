@@ -3,4 +3,5 @@ function calcImc(weight, height) {
 
   return imc;
 }
+
 calcImc(90, 1.8);
