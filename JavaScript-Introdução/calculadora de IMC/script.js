@@ -1,5 +1,5 @@
-function calcImc(width, height) {
-  const imc = Math.round(width / (height * height));
+function calcImc(weight, height) {
+  const imc = Math.round(weight / Math.pow(height, 2));
 
   return imc;
 }
