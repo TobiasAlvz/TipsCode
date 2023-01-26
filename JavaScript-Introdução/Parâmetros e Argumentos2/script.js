@@ -1,11 +1,20 @@
-function getBread(saldo) {
-  const custo = 1.5;
-
+function getBread(balance, costBread = 1.5) {
   console.log(
-    `O saldo atual é ${saldo}, você consegue comprar ${Math.floor(
-      saldo / custo
+    `O saldo atual é ${balance}, você consegue comprar ${calcBread(
+      balance,
+      costBread
     )} pães`
   );
-  return saldo % 1.5;
+  calcThing(balance, costBread);
 }
-console.log(getBread(50));
+
+function calcBread(dinheiro, custo) {
+  const numberBreads = Math.floor(dinheiro / custo);
+  return numberBreads;
+}
+
+function calcThing(money, costPao) {
+  const troco = console.log(`O seu troco é ${money % costPao}`);
+  return troco;
+}
+getBread(50);
