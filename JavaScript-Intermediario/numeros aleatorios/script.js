@@ -1,3 +1,4 @@
 const randomNumber = Math.round(Math.random() * 100);
+randomNumber += 1;
 
-console.log(randomNumber);
+alert(randomNumber);
