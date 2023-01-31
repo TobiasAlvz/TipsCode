@@ -1,5 +1,5 @@
 const names = ["joao", "maria", "jose", "davi"];
-const newName = prompt;
+const newName = prompt();
 
 if (names.includes[newName]) {
   alert("Nome incluido, acesso liberado");
