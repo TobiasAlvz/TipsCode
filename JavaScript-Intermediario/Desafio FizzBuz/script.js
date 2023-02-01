@@ -1,5 +1,6 @@
 const array = [];
 let count = 1;
+
 function fizzBuz() {
   array.push(count);
   count++;
