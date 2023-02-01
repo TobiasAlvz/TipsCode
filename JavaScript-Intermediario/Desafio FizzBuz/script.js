@@ -26,6 +26,5 @@ fizzBuz();
 fizzBuz();
 fizzBuz();
 fizzBuz();
-fizzBuz();
-fizzBuz();
+
 fizzBuz();
