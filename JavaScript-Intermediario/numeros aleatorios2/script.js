@@ -8,5 +8,4 @@ function sortear() {
     console.log("Kalebe");
   }
 }
-
 sortear();
