@@ -1,6 +1,8 @@
 const list = ["Isaac", "Pedro", "Maria", "João"];
 
 function sortear() {
-  const randomNumber = Math.round(Math.random() * list.length);
+  const randomNumber = Math.floor(Math.random() * list.length);
+  console.log(`Quem vai pagar é ${list[randomNumber]}`);
 }
-console.log(list.length);
+
+sortear();
