@@ -1,0 +1,13 @@
+h1 {
+  color: blue;
+  background-color: cornflowerblue;
+  text-align: right;
+  font-size: 3em;
+}
+
+.t1 {
+  color: teal;
+  background-color: crimson;
+  text-align: center;
+  font-size: 4.5em;
+}
