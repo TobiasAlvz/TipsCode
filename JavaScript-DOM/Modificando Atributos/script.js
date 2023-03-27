@@ -1,5 +1,8 @@
 function show() {
-  // O toggle retorna um valor booleano, se for true. ele tira a classe.Se for False, ele adiciona a classe
-
-  title = document.querySelector("#title").classList.toggle("t1");
+  const ancor = document
+    .querySelector("a")
+    .setAttribute(
+      "href",
+      "https://www.instagram.com/tobias_alvz/?__coig_restricted=1"
+    );
 }
