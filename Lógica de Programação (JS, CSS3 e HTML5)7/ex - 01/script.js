@@ -11,3 +11,4 @@ function soma() {
       "Resultado: " + resultado;
   }
 }
+console.log("dasjnanf");
